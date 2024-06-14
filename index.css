@@ -1,0 +1,39 @@
+
+:root {
+    --board-size: 30px;
+}
+
+.fullpage {
+    user-select: none;
+    margin: 0;
+    height: 100svh;
+    width: 100svw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(51, 51, 57);
+    color: whitesmoke;
+}
+
+table#map {
+    border-collapse: collapse;
+}
+
+.block {
+    height: var(--board-size);
+    width: var(--board-size);
+    border: 1px solid rgb(39, 82, 163);
+    text-align: center;
+}
+
+.snake {
+    height: 25px;
+    width: 25px;
+    background: rgb(27, 134, 62);
+    border-radius: 50%;
+    margin: auto;
+}
+
+.head {
+    background: rgb(79, 205, 33);
+}
